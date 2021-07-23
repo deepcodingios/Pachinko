@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		276E085D26A9CDB500F54439 /* Rain.sks in Resources */ = {isa = PBXBuildFile; fileRef = 276E085B26A9CDB500F54439 /* Rain.sks */; };
+		276E085E26A9CDB500F54439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 276E085C26A9CDB500F54439 /* Assets.xcassets */; };
 		27ECDAF426A872B7009D98FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ECDAF326A872B7009D98FA /* AppDelegate.swift */; };
 		27ECDAF626A872B7009D98FA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 27ECDAF526A872B7009D98FA /* GameScene.sks */; };
 		27ECDAFA26A872B7009D98FA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ECDAF926A872B7009D98FA /* GameScene.swift */; };
@@ -31,6 +33,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		276E085B26A9CDB500F54439 /* Rain.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Rain.sks; sourceTree = "<group>"; };
+		276E085C26A9CDB500F54439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27ECDAF026A872B7009D98FA /* Pachinko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pachinko.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27ECDAF326A872B7009D98FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27ECDAF526A872B7009D98FA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -102,6 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				27ECDB0926A87B13009D98FA /* FireParticles.sks */,
+				276E085B26A9CDB500F54439 /* Rain.sks */,
+				276E085C26A9CDB500F54439 /* Assets.xcassets */,
 				27ECDB0A26A87B13009D98FA /* ballBlue@2x.png */,
 				27ECDB0B26A87B13009D98FA /* slotGlowBad@2x.png */,
 				27ECDB0C26A87B13009D98FA /* ballYellow@2x.png */,
@@ -191,10 +197,12 @@
 				27ECDB1A26A87B13009D98FA /* slotGlowBad@2x.png in Resources */,
 				27ECDAF626A872B7009D98FA /* GameScene.sks in Resources */,
 				27ECDB1F26A87B13009D98FA /* ballGrey@2x.png in Resources */,
+				276E085E26A9CDB500F54439 /* Assets.xcassets in Resources */,
 				27ECDB2226A87B13009D98FA /* slotGlowGood@2x.png in Resources */,
 				27ECDB2126A87B13009D98FA /* bouncer@2x.png in Resources */,
 				27ECDB1C26A87B13009D98FA /* slotBaseGood@2x.png in Resources */,
 				27ECDB0126A872B9009D98FA /* Assets.xcassets in Resources */,
+				276E085D26A9CDB500F54439 /* Rain.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
